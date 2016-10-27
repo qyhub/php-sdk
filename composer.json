@@ -3,8 +3,8 @@
     "type": "library",
     "description": "",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "qyhub",
+        "php-sdk"
     ],
     "homepage": "https://github.com/:vendor/:package_name",
     "license": "MIT",
