@@ -1,0 +1,50 @@
+{
+    "name": "qyhub/php-sdk",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        ":vendor",
+        ":package_name"
+    ],
+    "homepage": "https://github.com/:vendor/:package_name",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wave",
+            "email": "wave@xfruit.cn",
+            "homepage": "https://qyhub.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "firebase/php-jwt": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qyhub\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qyhub\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
