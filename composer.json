@@ -6,11 +6,11 @@
         "qyhub",
         "php-sdk"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/qyhub/php-sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": "wave",
+            "name": "qyhub",
             "email": "wave@xfruit.cn",
             "homepage": "https://qyhub.cn",
             "role": "Developer"
