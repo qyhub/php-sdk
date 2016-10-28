@@ -5,9 +5,15 @@ use Think\Controller;
 
 class IndexController extends Controller
 {
+
     public function index()
     {
-       redirect('https://qyhub.cn/', 2,'页面跳转中,请稍后...');
-       return ;
+      return $this->display("index");
     }
+
+    public function dashboard()
+    {
+      return $this->show("保护的内容");
+    }
+
 }
