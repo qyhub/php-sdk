@@ -1,7 +1,7 @@
 {
     "name": "qyhub/php-sdk",
     "type": "library",
-    "description": "",
+    "description": "qyhub.cn SDK for PHP",
     "keywords": [
         "qyhub",
         "php-sdk"
