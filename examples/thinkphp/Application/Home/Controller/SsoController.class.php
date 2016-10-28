@@ -27,6 +27,8 @@ class SsoController extends Controller
       $sso = new Sso($this->id,$this->secret);
       $user = $sso->getUser($authUserToken);
 
+
+
       //获取token
       $auth= Auth($this->id,$this->secret);
       $token=$auth->getToken();
@@ -40,7 +42,7 @@ class SsoController extends Controller
         data.need_sync_users 为要同步更新或者新增的用户
         data.userids 为订阅当前应用的用户
       */
-      var_dump($userData);
+      //var_dump($userData);
 
       //TODO
 
